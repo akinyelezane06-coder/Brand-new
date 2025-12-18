@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+}
+
+.car {
+    height: 600px;
+    width: 800px;
+
+}
+
+.sell__porsche {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    height: 200px;
+    width: 300px;
+}
+
+
+
+.ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+
+nav  {   
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background: linear-gradient(400deg, white , rgb(212, 132, 132) );
+}      
+
+header {
+    background-color: white; 
+    padding: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "BBH Bartle", sans-serif;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 16px 0px 16px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(177, 107, 107);
+    color: black;
+    border: 3px solid black;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+}
+    
+a {
+    color: black;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+}
+
+#about {
+    padding: 48px 0;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center; 
+    margin-bottom: 24px;
+    font-family: "BBH Bartle", sans-serif;
+}
+
+.car__wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#about {
+    padding: 48px;
+}
+
+#drive {
+    padding: 48px;
+}
+
+.drive {
+    width: 700px;
+    height: 200px;
+}
+
+.drive__car {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+#contact {
+    background: linear-gradient(135deg, lightpink , #8ec5fc);
+    padding: 20px;
+}
+
+footer {
+    background: linear-gradient(400deg, white , rgb(212, 132, 132) );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.footer__links {
+    padding: 0 16px;
+}
+
+
+
